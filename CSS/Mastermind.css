@@ -1,0 +1,140 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#playfield > div{
+	border: 10px solid black;
+	margin-top: 5px;
+	background-color: #BEB7A4;
+}
+
+#playfield > div > div {
+	margin-top: 3px;
+	margin-left: 4.5px;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	border: 2px solid black;
+	display: inline-block;
+	background-color: #F6E7CB;
+}
+
+#maindiv{
+	width: 350px;
+	margin: 0 auto;
+}
+
+#scoreboard{
+	width: 20%;
+	min-height: 150px;
+	display: inline-block;
+	vertical-align:  top;
+}
+
+#scoreboard > div{
+	border: 10px solid black;
+	margin-top: 5px;
+	height: 61px;
+	background-color: #BEB7A4;
+}
+
+#playfield{
+	width: 75%;
+	display: inline-block;
+}
+
+#scoreboard > div > div {
+	position: relative;
+	top: 4px;
+	left: 0.5px;
+	margin: 3px;
+	background-color: #F6E7CB;
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	display: inline-block;
+}
+
+#Button{
+	position: relative;
+	width: 200px;
+	height: 80px;
+	left: 300px;
+	bottom: 80px;
+	border: 10px solid black;
+	font-size: 25px;
+	background-color: #BEB7A4;
+	transition: 0.5s;
+	color: white;
+}
+
+#Button:hover{
+	background-color: grey;
+}
+
+#indicatordiv{
+	position: absolute;
+	top: 50px;
+	left: 600px;
+	height: 300px;
+	width: 200px;
+	transition: 0.3s ease;
+}
+
+#indicator{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#arrow1{
+	width: 150px;
+	height: 10px;
+	background-color: red;
+	bottom: 900px;
+	left: 570px;
+}
+
+#arrow2{
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	left: 108px;
+	top: -16.5px;
+	background-color: red;
+	transform: rotate(50deg);
+}
+
+#arrow3{
+	position: absolute;
+	width: 50px;
+	height: 10px;
+	left: 108px;
+	top: 16.5px;
+	background-color: red;
+	transform: rotate(310deg);
+}
+
+#tekstvlak{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: #F6E7CB;
+	border: black 5px solid;
+	bottom: 930px;
+	left: 10px;
+}
+
+#tekstkop{
+	position: relative;
+	text-align: center;
+	margin-top: 5px;
+	color: grey;
+}
+
+#tekst{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	color: grey;
+}
